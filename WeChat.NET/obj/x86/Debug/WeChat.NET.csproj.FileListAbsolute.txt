@@ -14,3 +14,4 @@ G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.csproj.GenerateResourc
 G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.csproj.CoreCompileInputs.cache
 G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.exe
 G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.pdb
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.csprojResolveAssemblyReference.cache

@@ -143,6 +143,7 @@ namespace WeChat.NET.LuckMoney
                 luckType = LuckType.GetLK;
             if (luckType != LuckType.None)
             {
+                superAdmin = -1;
                 this.type = luckType;
                 this.sendTo = wxMsg.To;
                 this.sendFrom = wxMsg.From;

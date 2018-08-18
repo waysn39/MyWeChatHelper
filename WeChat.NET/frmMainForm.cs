@@ -59,7 +59,7 @@ namespace WeChat.NET
             Controls.Add(_friendInfo);
 
             _lblWait = new Label();
-            _lblWait.Text = "数据加载...";
+            _lblWait.Text = "数据加载.....";
             _lblWait.AutoSize = false;
             _lblWait.Size = this.ClientSize;
             _lblWait.TextAlign = ContentAlignment.MiddleCenter;

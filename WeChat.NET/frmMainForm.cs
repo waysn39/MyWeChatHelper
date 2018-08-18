@@ -66,7 +66,7 @@ namespace WeChat.NET
             _lblWait.Location = new Point(0, 0);
             Controls.Add(_lblWait);
         }
-
+        
 
         #region  事件处理程序
         /// <summary>
@@ -194,16 +194,15 @@ namespace WeChat.NET
                                     string content = m["Content"].ToString();
                                     string type = m["MsgType"].ToString();
 
-                                    LuckType luckType = LuckType.None;
-                                    if ((type == "49" && content.Contains(@"饿了么拼手气")))
-                                        luckType = LuckType.RobLK;
-                                    if (content.Contains(@"#红包"))
-                                        luckType = LuckType.GetLK;
-                                    if (luckType != LuckType.None)
-                                    {
-                                        LuckMessage luckMessage = new LuckMessage(luckType, to, from, content);
-                                        luckMessage.SendLuckMessage();
-                                    }
+                                    WXMsg msg = new WXMsg();
+                                    msg.From = from;
+                                    msg.Msg = content ;  //只接受文本消息
+                                    msg.Readed = false;
+                                    msg.Time = DateTime.Now;
+                                    msg.To = to;
+                                    msg.Type = int.Parse(type);
+
+                                    MessageServer.GetInstance().notifyMessage(msg);
                                 }
                             }
                         }

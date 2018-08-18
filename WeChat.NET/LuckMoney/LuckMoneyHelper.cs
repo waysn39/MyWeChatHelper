@@ -8,8 +8,17 @@ using System.Text;
 
 namespace WeChat.NET.LuckMoney
 {
+    /// <summary>
+    /// 红包帮助类
+    /// </summary>
     public static class LuckMoneyHelper
     {
+        /// <summary>
+        /// 抢红包
+        /// </summary>
+        /// <param name="url"></param>
+        /// <param name="isError"></param>
+        /// <returns></returns>
         public static string RobLuckMoney(string url ,ref bool isError)
         {
             isError = false;
@@ -63,6 +72,11 @@ namespace WeChat.NET.LuckMoney
             return result;
         }
 
+        /// <summary>
+        /// 取红包
+        /// </summary>
+        /// <param name="isError"></param>
+        /// <returns></returns>
         public static string GetLuckMoney(ref bool isError) {
             isError = false;
             string result = string.Empty;

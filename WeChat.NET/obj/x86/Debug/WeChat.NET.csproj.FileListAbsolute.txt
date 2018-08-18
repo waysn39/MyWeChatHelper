@@ -1,0 +1,16 @@
+G:\git\MyWeChatHelper\WeChat.NET\bin\Debug\WeChat.NET.exe.config
+G:\git\MyWeChatHelper\WeChat.NET\bin\Debug\WeChat.NET.exe
+G:\git\MyWeChatHelper\WeChat.NET\bin\Debug\WeChat.NET.pdb
+G:\git\MyWeChatHelper\WeChat.NET\bin\Debug\Newtonsoft.Json.dll
+G:\git\MyWeChatHelper\WeChat.NET\bin\Debug\WebKitBrowser.dll
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.Controls.WChatBox.resources
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.Controls.WChatList.resources
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.Controls.WFriendsList.resources
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.Controls.WPersonalInfo.resources
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.frmLogin.resources
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.frmMainForm.resources
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.Properties.Resources.resources
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.csproj.GenerateResource.Cache
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.csproj.CoreCompileInputs.cache
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.exe
+G:\git\MyWeChatHelper\WeChat.NET\obj\x86\Debug\WeChat.NET.pdb

@@ -94,8 +94,10 @@
     <Compile Include="HTTP\BaseService.cs" />
     <Compile Include="HTTP\LoginService.cs" />
     <Compile Include="HTTP\WXService.cs" />
-    <Compile Include="LuckMoney\LuckMessage.cs" />
+    <Compile Include="Interface\IWXMessageObserver.cs" />
+    <Compile Include="LuckMoney\LuckMessageServer.cs" />
     <Compile Include="LuckMoney\LuckMoneyHelper.cs" />
+    <Compile Include="Objects\MessageServer.cs" />
     <Compile Include="Objects\UserManager.cs" />
     <Compile Include="Objects\WXMsg.cs" />
     <Compile Include="Objects\WXUser.cs" />
